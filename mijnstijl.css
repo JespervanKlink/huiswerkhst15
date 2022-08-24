@@ -1,0 +1,186 @@
+
+/* Body, navigatie, middel en footer */
+
+body {
+  background-color: #b1f4fa;
+  font-family: helvetica, verdana, sans-serif;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.middel1{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-left: auto;
+  padding-right: auto;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: block;
+}
+
+.middel2{
+  border: 1px solid black;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 300px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: block;
+}
+
+.middel3{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 5px;
+  padding-right: 50px;
+  padding-left: 450px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: block;
+}
+
+.footer{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-left:5px;
+  padding-right: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.navigatie, .middel1, .middel2, .middel3, .footer{
+  background-color: #90DBE3;
+  font-family: helvetica, verdana, sans-serif;
+}
+
+/* index */
+
+.navigatie {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 5px;
+  padding-right: 50px;
+  padding-bottom: 5px;
+  padding-left: 300px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: block;
+  text-align: left;
+}
+
+ul a{
+color: darkblue;
+text-decoration: none;
+padding-left: 50px;
+}
+
+li{
+color: black;
+font-size: 13px;
+display: inline-block;
+height: 30px;
+width: 200px;
+text-align: center;
+background-color: #5E7EFF;
+text-shadow: 2px 2px #8CE9EA;
+padding-top: 10px;
+}
+li:hover{
+background-color: lightgreen;
+border-style: none;
+}
+
+#intro{
+  text-shadow: 2px 2px #5E7EFF;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  color: darkblue;
+}
+
+#introductie{
+  color: black;
+  text-align: center;
+  font-size: 15;
+  font-weight: 100;
+  font-style: italic;
+  opacity: 0.8;
+  margin-left: 10;
+  margin-top: 5;
+  margin-right: 10;
+  margin-bottom: 5
+
+}
+
+#afbeelding{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 350px;
+}
+
+/* Mijn CV */
+
+
+th {
+  background-color: darkblue;
+  color: white;
+  border: 1px solid black;
+  }
+
+table, th, tr, td{
+  padding: 5px;
+}
+
+table{
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.t1{
+  background-color: #5E7EFF;
+}
+
+input[type="text"], input[type="email"], textarea, button{
+  display: block;
+  margin: 15px 0px;
+  width: 400px;
+  box-sizing: border-box;}
+
+  }
+
+/* Contact */
+
+  .contact{
+    text-shadow: 2px 2px #5E7EFF;
+    font-family: helvetica, verdana, sans-serif;
+  }
+
+  textarea{
+    height:100px;
+    padding: 5px 4px;
+  }
+
+button:hover{
+  color: white;
+  background-color: lightgreen;
+  font-size: 13px;
+  text-decoration: none;}
+  }
